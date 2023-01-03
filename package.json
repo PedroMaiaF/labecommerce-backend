@@ -1,0 +1,25 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "labecommerce-backend projeto Labenu",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroMaiaF/labecommerce-backend.git"
+  },
+  "author": "PedroMaia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroMaiaF/labecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/PedroMaiaF/labecommerce-backend#readme"
+}
