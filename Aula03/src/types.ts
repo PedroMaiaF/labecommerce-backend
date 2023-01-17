@@ -1,6 +1,10 @@
-import { users } from "./database"
-import { products } from "./database"
-import { purchases } from "./database"
+import { Users, Products, Purchases } from "./database"
+
+export enum ITEMS {
+    FRUITS = "Frutas",
+    CANDIES = "Doces",
+    ELETRONICS = "Eletrônicos"
+}
 
 export type TUser = {
     id: string,
@@ -10,8 +14,8 @@ export type TUser = {
 
 export type TProduct = {
     id: string,
-    nome: string,
-    preco: number,
+    name: string,
+    price: number,
     category: string
 }
 
