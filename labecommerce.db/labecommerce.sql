@@ -138,3 +138,27 @@ SELECT * FROM users --tabela principal
 INNER JOIN purchases -- tabela FORASTEIRA kk(estrangeira)
 ON purchases.buyer_id = users.id;
 
+-- relações sql-II
+-- Exc1
+
+CREATE TABLE purchases_products (
+    purchases_id TEXT NOT NULL,
+    product_id TEXT NOT NULL,
+    quantity INTEGER NOT NULL
+);
+
+INSERT INTO purchases_products (purchases_id, product_id, quantity)
+VALUES
+("pur001", "G001", 1),
+("pur002", "G002", 1),
+("pur003", "C01", 3);
+
+SELECT * FROM purchases_products
+-- CONTINUAR O EXERCÍCIO-SQL2
+
+
+
+
+-- Para o EXERCÍCIO 3 É MELHOR CRIAR UM NOVO ARQUIVO ".DB" PARA EVITAR PERDER O QUE FOI FEITO NO "LABECOMMERCE.DB" 
+
+
